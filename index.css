@@ -1,0 +1,61 @@
+.mainContainer{
+    background: rgb(181, 234, 217);
+
+}
+.task{
+    margin-left: 300px;
+}
+.list{
+    color: blueviolet;
+}
+.container{
+    background: white;
+    height: 800px;
+    width: 900px;
+    margin-left: 180px;
+}
+.addTask{
+    display: flex;
+  
+  
+    
+}
+.add{
+    height: 100px;
+   filter: drop-shadow(5px 5px 5px  black);
+   margin-left: 520px;
+    
+}
+.addTask h1{
+    margin-top: 35px;
+    margin-left: -10px;
+   text-shadow: 1px 1px 5px  black;
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 30px;
+    padding: 5px;
+    margin-left: 45px;
+    height: 500px;
+    width: 800px;
+   position: relative;
+   z-index: 1;
+   margin-top: -15px;
+
+}
+.card{
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background: rgb(181, 234, 217);;
+}
+.card:hover{
+    box-shadow: 5px 5px 15px black;
+}
+.card h2{
+    color: blueviolet;
+
+}
